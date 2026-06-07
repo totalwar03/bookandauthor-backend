@@ -19,13 +19,13 @@
 ### 1. Δημιουργία Βάσης Δεδομένων
 Άνοιξε το MySQL και τρέξε:
 ```sql
-CREATE DATABASE bookandauthor;
+CREATE DATABASE bookandauthor_db;
 ```
 
 ### 2. Ρύθμιση application.properties
 Άνοιξε το αρχείο `src/main/resources/application.properties` και συμπλήρωσε:
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/bookandauthor
+spring.datasource.url=jdbc:mysql://localhost:3306/bookandauthor_db
 spring.datasource.username=YOUR_USERNAME
 spring.datasource.password=YOUR_PASSWORD
 spring.jpa.hibernate.ddl-auto=update
